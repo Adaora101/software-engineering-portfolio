@@ -1,1 +1,31 @@
+Frist reflection
+Software is a set of items forming a 'configuration': such as prpgrams, documents, and data
+Software engineering is not just concerned with code but with all aspects of software production, not just the technical part but also the project management and the tools and methods used to support it.
+Software engineering is the organises process of creating, designing, and maintaining software. 
+It involves applying scientific and practical knowlefge to develop software using careful methodical instruction and code developers write.
+It includes computer programs, related documentation, and the use of scientific principles to evolve software. 
+Google maps is a software that i enjoy using and use regualrly especially for walking around towns and city that i'm unfamiliar with. It has intuitive navigation, real time rerouting and even has visual guidance that is effective especially when lost while in transit.
+Spotify, an app that I enjoy using has one major problem. It's shuffle feature is perhaps it's most frustrating feature. it repeatedly cycles through the same 10 to 15 songs and even in the same order. This fails user expectation and the very definition of what a shuffle is. The underlying recommendation algorithm heavily weighs recent listening history over equal probability distribution and hence true randomness cannot be achieved.
 
+Spotify developers should implement a true shuffle toggle, allowing usrs to bypass biased recommendation algorithms when they want genuine randomness.
+TFI Go developers should integrate intercity routes directly with Bus Eireann within a unified journey planning API rather than forcing users across fragmented websites.
+
+## The Four Process Activities: RetailSync Case Study
+Specification - weak
+Development - present but weak
+Validation - weak
+Evolution - Entirely missing
+
+
+Kick off - No specification was created, only a one hour meeting was had which only described 'roughly whta was needed'. A project cannot be built on a one hour meeting. A project has to be planned taking into consideration who is using the product, what are the requiremnts that the project has to meet to be considered successful, what tool are needed to complete this project, and who is going to carry out this project,
+along with budget and time constraints. A project with no specification is already bound to fail.
+
+Development - while development took place, the developers worked independently, just taking a module each without considering how each module my work with the other or affect it, there was no coordination and hence they often overwrote each others code. There were no shared coding standards which means there was bound to be confusion. No warehouse staff was consulted during development, which means developers were only guessing how the system was going to work.
+
+Change of plan - it was only metioned in passing that the system would need to support the company's new second warehouse, a feat that should have been detailed in the intital specification and has only been communicated in passing 4 months into the project. The developers did not revisit the design but just patched on a new requirement on top of an exiating schema.
+
+Testing - The developers ran the application themselves and fixed the the crashes they enocountered, no actual warehouse staff tested the system and no test cases were written so the developers have very little idea on if the system works as is intended to
+
+Go Live - The problems that occured during this stage were an accumulation of the lack of project management that happened in the previous stages.
+
+I believe the failure that did the most damage was the lack of proper specification. This caused the developers to create a project without having an idea how the system was supposed to work and not knowing what requirements were to be met. 
