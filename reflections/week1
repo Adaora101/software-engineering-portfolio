@@ -29,3 +29,9 @@ Testing - The developers ran the application themselves and fixed the the crashe
 Go Live - The problems that occured during this stage were an accumulation of the lack of project management that happened in the previous stages.
 
 I believe the failure that did the most damage was the lack of proper specification. This caused the developers to create a project without having an idea how the system was supposed to work and not knowing what requirements were to be met. 
+
+## Reseaching a Software Failure
+On June 4, 1966, the Ariane 5 rocket exploded roughly 40 seconds after launch during it maiden flight. The failure was caused by a software crash in the Inertial Reference system. While executing data conversion, the software attempted to convert a 64 bit floating point number representing horizontal velocity into a 16 bit integer. Because Ariane 5 experienced higher accelration that its predecessor, the 64 bit value exceeded 32,767, the maximum limit storable in a 16 bit integer,
+this resulted in an unhandled operand exception. The primary and backup SRI processors shut down, outputting diagnostic debugging data into memory. The main flight computer misinterpreted this debugging data as actual flight attitude data, triggering exteme engine steering correction that destroyed the rocket.
+This failure shows  the importance of complexity and software evolution. Ther Inertial refernce system was directly reused from Ariane 4 without reassessing the system in its enirety or updating its requiremnts for Ariane 5's higher acceleration. Because the system was not properly re validated across its evolving process, reusing legacy code to save development effort resulted in system destruction. Failing to apply software engineering methods in large evolving projects creates long term costs and problems.
+Source: https://www.researchgate.net/publication/340875112_Ariane_501_Rocket_Explosion
