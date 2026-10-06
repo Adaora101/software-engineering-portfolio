@@ -1,4 +1,20 @@
 Task 1
-Brief A - Waterfall and spiral
-Brief B - Prototype and incremental
-Brief C - Iterative development
+Brief A - Waterfall and spiral - This brief requires complete traceability from requirement to code to test evidence,
+in which waterfall is able to achieve as it reinforces define-before-design and design-before-code and allows for stable 
+requirements that are well understood. However as this brief shows that a defect in this system could ndager lives, we would 
+also need a methodology that is risk driven, ensuring that all risks are explicityly assessed and rsolved throughout the process.
+There is no pressure to release quickly and it is expected that we have extensive doucmentation for each stage, hence waterfall 
+and spiral are appropriate for this project.
+
+Brief B - Prototype and incremental - As the owner wants this webiste to be completed in three weeks, a methodolof=gy that allows us to work 
+quickly without extensive documentation is necessary, as this project is not being integrated into another system and the technical complexity is low,
+what is needed is to focus on getting drafts out to the client as they are not sure exactly wha exactly they want but are available to give feedback,
+however it is noted that they client tends to change their mind about visual details. A methodology like prototyping allows us to define objetives and functionality
+for this project and allows us to to have the client involved in the decisions that will be made. Once the prototype is developed and evaluated by the client we can then 
+use evolotionary prototyping to refine it into the final system. Incremental development is combined to  be used for this project as there are no safety or regualtroy dimensions 
+and the budget is small. Using a combination of prototyping and incremental developmnts, this project will be able to meet its deadline while working with the client to develop 
+what they want.
+
+Brief C - Iterative development - The founders want to release a usable version of the project within a month. They have a rough idea of the core features but expect it to change 
+significantly once real students start using it. The itereative developmet process would suit this project as the team wil be able to create a high level design first for the entire 
+project and meat the release date but with user feedback they can then refine and imporove the defect that surface.
