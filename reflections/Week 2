@@ -18,3 +18,18 @@ what they want.
 Brief C - Iterative development - The founders want to release a usable version of the project within a month. They have a rough idea of the core features but expect it to change 
 significantly once real students start using it. The itereative developmet process would suit this project as the team wil be able to create a high level design first for the entire 
 project and meat the release date but with user feedback they can then refine and imporove the defect that surface.
+
+Task 2
+After giving a pitch to a classmate on brief 2, I was challenged with a question. If I have three weeks to create this website, and i'm constantly making visual changes to the website
+would there not be a risk of scope creep or dragging out the timeline past the deadline? An alternative suggestion I was given was the reuse oriendted software engineering, whuch
+could offer speed, aloow the project to stay on budget and ensure the client chooses from existing template instead of making everything from scratch and redesigneing over and over again.
+Others may have also chosen an incremental development process, this would allow them to release a functional website by the deadline. The highest priority pages are delivered on time and 
+the other parts can be incrementally done afterwards.
+
+Task 3
+Project: A live bus tracking app that provides real time bus locations and arrival estimates
+
+For this project< I would use incremental development with reuse oriented software engineering and also targeted prototyping.  alive tracking reliens on external mapping frameworks and transit data feeds,
+this makes reuse oriented developmet a good choice for integrating existing components rather than building from scratch. Before commiting to the full constructiono of this project, prototyping can be used to 
+evaluate technical risk involved like GOS update latency and maper rendering performance. Increment 1 would deliver statice timetables and route search. Increment 2 would introduce live GPS bus positions on a map. 
+Incremnt 3 would add notifcations for delays and any changes that maybe decided on upon feedback.
