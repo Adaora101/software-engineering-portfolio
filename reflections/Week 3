@@ -1,0 +1,18 @@
+Task 1
+Scenario 1
+- Active development of features that may be impacted is stopped
+- The new requested feature is documented
+- A cost analysis is carried out to determine the cost, resources and delay that is needed for the rework
+- The requirement specification is updated with all details of the new feature
+- The requirement sign off is repeated, reviewed and signed off
+- The system design and architecture will have to be updated, including the database schema
+- Design approval will have to be repeated
+- Test cases will have to be updated to test the new requirement feature
+-Project schedule will have to be updated
+q2
+- Development will not have to be stopped
+- instead of a formal change request a user story is created
+- Prioritisation is done MoSCoW
+- Sprint planning is done, and the new feature is taken as high priority for the next sprint
+- The system design and architecture are designed iteratively in the next sprint and continuous feedback is used for clariying details
+- Tests are updated withing the next sprint
