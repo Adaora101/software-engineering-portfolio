@@ -1,21 +1,45 @@
 Task 1
-1. As a player, I want to see a calendar of available pitch time slots, so that I can find a time that suits my group. L
-2. As a player, I want to book a pitch slot for a specific date and time, so that my group has a confirmed place to play. L
-3. As a player, I want to cancel a booking I made, so that I'm not charged if our plans change. M
+1. As a player, I want to see a calendar of available pitch time slots, so that I can find a time that suits my group. S
+2. As a player, I want to book a pitch slot for a specific date and time, so that my group has a confirmed place to play. M
+3. As a player, I want to cancel a booking I made, so that I'm not charged if our plans change. S
 4. As a player, I want to receive a confirmation email after booking, so that I have proof of my reservation. S
 5. As a returning player, I want to see my past bookings, so that I can quickly rebook a slot I liked. S
-6. As a player, I want to pay for my booking online, so that I don't need to bring cash to the venue. L
+6. As a player, I want to pay for my booking online, so that I don't need to bring cash to the venue. M
 7. As a group organiser, I want to invite other players to a booking by sharing a link, so that they know when and
-where to show up. M
-8. As a centre manager, I want to block out a pitch for maintenance, so that it can't be double-booked during repairs. L
-9. As a centre manager, I want to see a daily schedule of all bookings across all pitches, so that I can manage staffing. L
+where to show up. L
+8. As a centre manager, I want to block out a pitch for maintenance, so that it can't be double-booked during repairs. M
+9. As a centre manager, I want to see a daily schedule of all bookings across all pitches, so that I can manage staffing. M
 10. As a player, I want to filter available slots by pitch size and surface type, so that I can find a pitch that suits my
-group's needs. M
+group's needs. S
 11. As a player, I want to receive a reminder notification an hour before my booking, so that I don't forget to show up. S
 12. As a centre manager, I want to set different prices for peak and off-peak time slots, so that demand is spread more
 evenly across the day. M
 13. As a player, I want to rate the pitch condition after playing, so that future players know what to expect. S
 14. As a centre manager, I want to export a monthly bookings report, so that I can reconcile revenue with the finance
-system. M
+system. L
 
+
+What went well: Sticking the WIP limit of 2 for focus and stop team from feeling overwhelemed
+What didn't go well: Estimating T shirt sizes is hard without talking to the client
+One action for next time: Breaking bigger stories into smaller parts
+
+Task 2
+User stories
+As a student, I want to view my personal weekly timetable, so that I can plan so I can attend my classes at the right time.
+As a student, I want to receive a notification when a class is rescheduled or cancelled, so that I don't waste a trip to school.
+As a student, I want to export my timetable to my phones calendar app, so that I can have automatic offline access and reminders. Acceptance criteria: When class times change on the portal, then the user should be prompted to update or see the sync reflect the change in their calendar app.
+As a student, I want to swap into an alternative lab or tutorial slot when my assigned one clashes with another commitment.
+As a lecturer, I want to mark a specific class as cancelled or relocated so that students are immediately notified.Acceptance criteria: When the cancellaion or relocation is confirmed, then an automated email alert should be sent to the students.
+As an administrator, I want to see which timetable slots are over capacity, so that I can reallocate rooms or split large classes before the semester begins.
+
+INVEST
+Each story is small and manageable, it clearly states the benefit of each need and the acceptance criterias are testable
+Task 3
+XP Practice: Continuous Integration
+https://www.etsy.com/codeascraft/etsys-journey-to-continuous-integration-for-mobile-apps
+In the blog, Etsy talks about how their engineering team adopted CI across thier mac min fllet using automated build pipelines and jenkins. By congifuring thier infrastructure to automatically trigger a build and execute test suites on every single Git push, Etsy successfully eliminated
+compilation issues and missing files after code was commiteed. This allowed the developers to catch integration bug early and provide stable daily pre release builds across the company.
+
+Continuous Integration supports the Scrum/Kanban workflow simulated in my trello board. We can ensure that user storeis moving into the "Done" column are automatically verified as Etsy did, without introducing any bugs. By automating builds and testing every Git Push, continuos integration prevents
+any errors that may occur with late integration and it can also avoid manual verfication overhead. The lets the team to maintain sustainable speed in development and have high software quality.
 
